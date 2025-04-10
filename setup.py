@@ -9,5 +9,10 @@ setup(
     packages=["parapred"],
     package_dir={
         "parapred": "parapred/"
-    }
+    },
+    entry_points={
+        "console_scripts": [
+            "parapred=parapred.cli:cli",
+        ],
+    },
 )
