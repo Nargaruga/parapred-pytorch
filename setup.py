@@ -10,6 +10,10 @@ setup(
     package_dir={
         "parapred": "parapred/"
     },
+    package_data = {
+        'parapred': ['weights/*.h5']
+    },
+    include_package_data=True,
     entry_points={
         "console_scripts": [
             "parapred=parapred.cli:cli",

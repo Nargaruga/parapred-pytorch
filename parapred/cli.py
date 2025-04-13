@@ -16,7 +16,7 @@ MAX_PARAPRED_LEN = 40
 LOGGER = logging.getLogger("Parapred-Logger")
 LOGGER.setLevel(logging.INFO)
 
-WEIGHTS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "parapred/weights/parapred_pytorch.h5")
+WEIGHTS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "weights/parapred_pytorch.h5")
 
 
 @click.command(help = "Predict paratope probability for a single CDR sequence.")
