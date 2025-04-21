@@ -1,1 +1,1 @@
-include parapred/weights/*.h5
+include parapred/weights/parapred_pytorch.h5

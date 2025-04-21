@@ -11,7 +11,7 @@ setup(
         "parapred": "parapred/"
     },
     package_data = {
-        'parapred': ['weights/*.h5']
+        'parapred': ['weights/parapred_pytorch.h5']
     },
     include_package_data=True,
     entry_points={
